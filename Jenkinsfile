@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git credentialsId: 'Server', url: 'git@github.com:SumonT2/OSTAD-Assignment-module-3.git'
+                git credentialsId: 'Server', url: 'git@github.com:SumonT2/OSTAD-Assignment-module-3.git',branch: 'main'
             }
         }
 
